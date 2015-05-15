@@ -1,0 +1,79 @@
+#Translated to Japanese by MCPEGamerJP. Abosolutely free-source. Created on 15th May 2015. Took 75 minutes.
+
+CORE_COMMAND_IP: "あなたはインスタントネットワークの： {serverName}.inpvp.net　にいます。"
+CORE_MOTD:
+  
+- "インスタントネットワークの{serverType}サーバーへようこそ"
+  
+- "あなたは {serverId}にいます。"
+CORE_COMMAND_RESTRICTED: "\xC2\xBB そのコマンドは使用できません。"
+
+# Auth
+
+AUTH_INCORRECT_PASSWORD: "/> パスワードが違います。　確認してください。"
+
+AUTH_LOGGED_IN: "/> あなたはログインされました。"
+
+AUTH_REGISTER: "> あなたは登録していません。/reg <ご希望のパスワード>で登録が必要です。"
+
+AUTH_ERROR: "> ログインサーバーからエラーが出ております。"
+
+AUTH_NEEDS_LOGIN: "> あなたはログインしていません。　/login <登録したパスワード>でログインが必要です。"
+
+AUTH_NEEDS_REGISTER:
+
+- "> 登録なしでは遊べません。"
+
+- "> あなたは登録していません。/reg <ご希望のパスワード>で登録が必要です。"
+
+AUTH_WELCOME_BACK:
+- "> ようこそ、{playerName}"
+
+- "> あなたはログインしていません。　/login <登録したパスワード>でログインが必要です。"
+AUTH_ALREADY_REGISTERED:
+
+- "> このユーザーネームは登録されています。"
+
+- "> パスワードをお忘れの場合は、"
+
+- "> ホームページまたは専用アプリでリセットをお願い申し上げます。"
+
+AUTH_REGISTERED: "> あなたの登録またはログインが終了いたしました
+
+# Engine
+
+ENGINE_ARENA_JOIN: "/> {displayName} が加入しました。 ({playerCount}/{totalPlayers})"
+
+ENGINE_ARENA_QUIT: "/> {displayName} は退出しました。　({playerCount}/{totalPlayers})"
+
+ENGINE_ARENA_START:
+
+- ">"
+
+- "> {time}で始まります"
+
+- ">"
+
+ENGINE_ARENA_OPEN:
+
+- ">"
+
+- ">  {gamemode}がプレイ可能になりました。"
+
+- ">"
+
+ENGINE_ARENA_BROADCAST: "> 残り時間は{time}です。"
+
+
+
+# NPC
+
+# EngineHook
+
+NPC_ENGINE_TAP_TO_JOIN: " > タップで入ることができます。< "
+
+NPC_ENGINE_MAP: "今回のマップは: {mapName}です。"
+
+NPC_ENGINE_GAMEMODE: "ただいまのゲームタイプは: {gamemode}です。"
+
+NPC_ENGINE_PLAYERS: "プレイヤーの数は [{playerCount}/{totalPlayers}]です。"
